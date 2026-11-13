@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CLASIFAI: clasificación inteligente de pernos, tuercas y arandelas mediante visión artificial y automatización.">
+  <meta name="theme-color" content="#081426">
+  <title>CLASIFAI | Clasificación inteligente</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/webp" href="Imagenes/logo.webp">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="CLASIFAI, ir al inicio"><img class="brand-logo" src="Imagenes/logo.webp" alt="Logo oficial de CLASIFAI" width="315" height="80"></a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menú" aria-controls="navLinks" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#nosotros">Nosotros</a><a href="#solucion">Solución</a><a href="#funcionamiento">Funcionamiento</a>
+        <a href="#tecnologia">Tecnología</a><a href="#demo">Simulador</a><a href="#galeria">Galería</a>
+        <a class="nav-cta" href="#contacto">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow"><span class="status-dot"></span> AUTOMATIZACIÓN · VISIÓN ARTIFICIAL · ROBÓTICA</span>
+          <h1>Clasificación inteligente, <em>procesos eficientes.</em></h1>
+          <p>CLASIFAI integra inteligencia artificial y automatización para identificar, clasificar y almacenar pernos, tuercas y arandelas.</p>
+          <div class="actions"><a class="btn primary" href="#solucion">Conoce CLASIFAI ↗</a><a class="btn secondary" href="#funcionamiento">¿Cómo funciona? →</a></div>
+        </div>
+        <figure class="hero-media reveal">
+          <img src="Imagenes/portada.webp" alt="Ilustración conceptual del sistema CLASIFAI con faja, cámara y brazo robótico" fetchpriority="high">
+          <figcaption class="media-badge"><span class="status-dot"></span> IA + AUTOMATIZACIÓN</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="nosotros">
+      <div class="container">
+        <div class="section-title reveal"><span class="kicker">01 / SOBRE NOSOTROS</span><h2>Innovación que <span>organiza el futuro</span></h2><p>Una propuesta de emprendimiento que une electrónica, programación y robótica.</p></div>
+        <div class="about-grid">
+          <div class="about-copy reveal"><h3>¿Qué es CLASIFAI?</h3><p>Es un prototipo diseñado para automatizar la identificación, clasificación y almacenamiento de elementos de ferretería utilizando visión por computadora y mecanismos de control.</p><p>Buscamos facilitar la organización de piezas pequeñas y reducir las tareas manuales repetitivas en talleres y almacenes.</p></div>
+          <div class="mini-grid">
+            <article class="card reveal"><div class="card-emoji">🎯</div><h3>Misión</h3><p>Desarrollar una solución accesible que facilite la clasificación inteligente de materiales.</p></article>
+            <article class="card reveal"><div class="card-emoji">🚀</div><h3>Visión</h3><p>Promover la incorporación de tecnología en procesos cotidianos de almacenamiento.</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft" id="solucion">
+      <div class="container">
+        <div class="section-title reveal"><span class="kicker">02 / EL DESAFÍO Y LA SOLUCIÓN</span><h2>De lo manual a lo <span>inteligente</span></h2><p>CLASIFAI responde a una necesidad real: separar piezas mezcladas de manera ordenada.</p></div>
+        <figure class="problem-media reveal"><img src="Imagenes/problema.webp" alt="Ilustración de la clasificación manual de pernos, tuercas y arandelas, con dificultades de tiempo y organización" loading="lazy"><figcaption>Representación ilustrativa de la problemática: clasificación manual, posibles errores y desorganización.</figcaption></figure>
+        <div class="compare-grid">
+          <article class="compare-card reveal"><span class="kicker">PROBLEMÁTICA</span><h3>Clasificación manual</h3><p>Separar las piezas a mano puede requerir tiempo y esfuerzo, además de generar equivocaciones.</p><ul><li>Trabajo repetitivo</li><li>Posibles errores al separar piezas</li><li>Dificultades de organización</li><li>Mayor intervención humana</li></ul></article>
+          <article class="compare-card solution reveal"><span class="kicker">PROPUESTA CLASIFAI</span><h3>Clasificación automatizada</h3><p>Una solución que combina visión artificial, movimiento controlado y almacenamiento organizado.</p><ul><li>Identificación asistida por IA</li><li>Separación por tipo de pieza</li><li>Contenedores organizados</li><li>Integración con brazo robótico</li></ul></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="funcionamiento">
+      <div class="container"><div class="section-title reveal"><span class="kicker">03 / EL PROCESO</span><h2>¿Cómo funciona <span>CLASIFAI?</span></h2><p>Cinco etapas desde el ingreso de las piezas hasta su almacenamiento.</p></div>
+        <div class="steps">
+          <article class="card step reveal"><b>01</b><div class="card-emoji">📥</div><h3>Alimentación</h3><p>La tolva y el mecanismo dosificador permiten introducir las piezas.</p></article>
+          <article class="card step reveal"><b>02</b><div class="card-emoji">⚙️</div><h3>Transporte</h3><p>La faja transportadora lleva las piezas hacia la cámara.</p></article>
+          <article class="card step reveal"><b>03</b><div class="card-emoji">📷</div><h3>Identificación</h3><p>La cámara y YOLOv8 reconocen el tipo de pieza.</p></article>
+          <article class="card step reveal"><b>04</b><div class="card-emoji">🔀</div><h3>Clasificación</h3><p>Un mecanismo dirige la pieza al contenedor correspondiente.</p></article>
+          <article class="card step reveal"><b>05</b><div class="card-emoji">🦾</div><h3>Almacenamiento</h3><p>El brazo robótico traslada los contenedores completos.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft" id="tecnologia">
+      <div class="container"><div class="section-title reveal"><span class="kicker">04 / TECNOLOGÍA</span><h2>La tecnología detrás de <span>CLASIFAI</span></h2></div>
+        <div class="tech-grid">
+          <article class="card reveal"><div class="card-emoji">🧠</div><h3>YOLOv8</h3><p>Modelo de inteligencia artificial para reconocer piezas.</p></article>
+          <article class="card reveal"><div class="card-emoji">💻</div><h3>Raspberry Pi 5</h3><p>Procesamiento de imágenes y coordinación de visión.</p></article>
+          <article class="card reveal"><div class="card-emoji">👁️</div><h3>Cámara</h3><p>Captura de imágenes en la estación de inspección.</p></article>
+          <article class="card reveal"><div class="card-emoji">🏭</div><h3>PLC LOGO!</h3><p>Control del movimiento de la faja transportadora.</p></article>
+          <article class="card reveal"><div class="card-emoji">🔌</div><h3>ESP32</h3><p>Control de los servomotores del brazo robótico.</p></article>
+          <article class="card reveal"><div class="card-emoji">🤖</div><h3>Brazo 4 GDL</h3><p>Manipulación de contenedores en el almacenamiento.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="beneficios">
+      <div class="container"><div class="section-title reveal"><span class="kicker">05 / BENEFICIOS ESPERADOS</span><h2>¿Por qué <span>CLASIFAI?</span></h2></div>
+        <div class="benefits"><article class="card reveal"><div class="card-emoji">⚡</div><h3>Eficiencia</h3><p>Busca disminuir el tiempo de separación manual.</p></article><article class="card reveal"><div class="card-emoji">🎯</div><h3>Precisión</h3><p>Busca reducir errores en la clasificación.</p></article><article class="card reveal"><div class="card-emoji">📦</div><h3>Orden</h3><p>Facilita el almacenamiento organizado de piezas.</p></article><article class="card reveal"><div class="card-emoji">🔬</div><h3>Innovación</h3><p>Integra IA, electrónica y robótica en un proceso.</p></article></div>
+      </div>
+    </section>
+
+    <section class="section demo-section" id="demo">
+      <div class="container"><div class="section-title reveal"><span class="kicker">06 / DEMOSTRACIÓN</span><h2>Prueba una simulación de <span>CLASIFAI</span></h2><p>Selecciona una pieza y observa cómo se asigna a su contenedor.</p></div>
+        <div class="demo-grid reveal">
+          <div class="demo-controls"><h3>Selecciona el material</h3><div class="piece-options"><button type="button" class="piece-btn" data-piece="perno" aria-pressed="false">🔩 Perno</button><button type="button" class="piece-btn" data-piece="tuerca" aria-pressed="false">⬡ Tuerca</button><button type="button" class="piece-btn" data-piece="arandela" aria-pressed="false">◎ Arandela</button></div><div class="actions"><button class="btn primary" id="startDemo" type="button" disabled>Iniciar simulación →</button><button class="btn secondary" id="resetDemo" type="button">Reiniciar</button></div></div>
+          <div class="demo-monitor"><div class="monitor-top"><span>● CLASIFAI / SIMULADOR</span><span id="demoStatus" role="status">EN ESPERA</span></div><div class="scan-area" id="scanArea"><span class="scan-line"></span><span class="piece-display" id="pieceDisplay" aria-hidden="true">?</span></div><div class="monitor-row"><span>PIEZA DETECTADA</span><strong id="detectedPiece">---</strong></div><div class="monitor-row"><span>CONTENEDOR DESTINO</span><strong id="detectedBin">---</strong></div><div class="monitor-row"><span>ESTADO</span><strong id="detectedStatus">Sin iniciar</strong></div></div>
+        </div><p class="demo-disclaimer">* Simulación ilustrativa: no utiliza cámara, no ejecuta YOLOv8 y no está conectada al prototipo físico.</p>
+      </div>
+    </section>
+
+    <section class="section" id="galeria">
+      <div class="container"><div class="section-title reveal"><span class="kicker">07 / GALERÍA</span><h2>Conoce el <span>proyecto</span></h2><p>Imágenes del desarrollo del prototipo CLASIFAI; incorporaremos más fotografías próximamente.</p></div>
+        <div class="gallery"><article class="gallery-placeholder reveal"><span>📷</span><h3>Prototipo completo</h3><p>Fotografía pendiente</p></article><article class="gallery-placeholder reveal"><span>👁️</span><h3>Visión artificial</h3><p>Captura real pendiente</p></article><article class="gallery-photo reveal"><img src="Imagenes/brazo.webp" alt="Fotografía real del brazo robótico del prototipo CLASIFAI" loading="lazy" width="296" height="575"><div class="gallery-photo-caption"><h3>Brazo robótico</h3><p>Prototipo en desarrollo</p></div></article></div>
+      </div>
+    </section>
+
+    <section class="section team-section" id="equipo">
+      <div class="container">
+        <div class="section-title reveal">
+          <span class="kicker">08 / NUESTRO EQUIPO</span>
+          <h2>Las personas detrás de <span>CLASIFAI</span></h2>
+          <p>Un equipo que integra electrónica, automatización, programación e innovación.</p>
+        </div>
+        <div class="team-grid">
+          <article class="team-member reveal">
+            <div class="team-avatar"><img src="Imagenes/equipo-eddy.webp" alt="Fotografía de Eddy Jorge Mamani Apaza" loading="lazy" width="174" height="174"></div>
+            <h3>Eddy Jorge<br>Mamani Apaza</h3>
+          </article>
+          <article class="team-member reveal">
+            <div class="team-avatar"><img src="Imagenes/equipo-yasmin.webp" alt="Fotografía de Yasmin Shirley Curi Solis" loading="lazy" width="174" height="174"></div>
+            <h3>Yasmin Shirley<br>Curi Solis</h3>
+          </article>
+          <article class="team-member reveal">
+            <div class="team-avatar"><img src="Imagenes/equipo-santiago.webp" alt="Fotografía de Santiago Matías Laura Sumire" loading="lazy" width="174" height="174"></div>
+            <h3>Santiago Matías<br>Laura Sumire</h3>
+          </article>
+          <article class="team-member reveal">
+            <div class="team-avatar"><img src="Imagenes/equipo-nayhib.webp" alt="Fotografía de Nayhib Castro Huaman" loading="lazy" width="174" height="174"></div>
+            <h3>Nayhib Castro<br>Huaman</h3>
+          </article>
+          <article class="team-member reveal">
+            <div class="team-avatar"><img src="Imagenes/equipo-jamir.webp" alt="Fotografía de Jamir Joel Benavente Vilca" loading="lazy" width="174" height="174"></div>
+            <h3>Jamir Joel<br>Benavente Vilca</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contacto">
+      <div class="container contact-inner reveal">
+        <span class="kicker">09 / CONTACTO</span>
+        <h2>Conversemos sobre <span>CLASIFAI</span></h2>
+        <p>En <strong>CLASIFAI</strong> estamos desarrollando una solución tecnológica que integra visión artificial y automatización para mejorar la clasificación y organización de piezas industriales.</p>
+        <div class="contact-details">
+          <div class="contact-info-card">
+            <span class="contact-icon" aria-hidden="true">📍</span>
+            <div><strong>Ubicación</strong><span>Arequipa, Perú</span></div>
+          </div>
+          <div class="contact-info-card">
+            <span class="contact-icon" aria-hidden="true">📞</span>
+            <div><strong>Contáctanos</strong><a href="tel:+51949818479">949 818 479</a><a href="tel:+51986551061">986 551 061</a></div>
+          </div>
+          <div class="contact-info-card contact-email-card">
+            <span class="contact-icon" aria-hidden="true">✉️</span>
+            <div>
+              <strong>Correo del proyecto</strong>
+              <a href="mailto:clasifai@gmail.com">clasifai@gmail.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-question">
+          <span aria-hidden="true">💬</span>
+          <p>Y tú, ¿crees que automatizar la clasificación de piezas ayudaría a mejorar la productividad de tu empresa?</p>
+        </div>
+        <a class="btn primary" href="#inicio">Volver al inicio ↑</a>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container"><a class="brand" href="#inicio"><img class="brand-logo" src="Imagenes/logo.webp" alt="Logo oficial de CLASIFAI" width="315" height="80"></a><p>Inteligencia artificial + automatización + robótica</p><small>© 2026 CLASIFAI · Proyecto de emprendimiento tecnológico</small></div></footer>
+</body>
+</html>
